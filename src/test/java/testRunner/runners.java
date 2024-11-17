@@ -5,7 +5,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 // CucumberOptions annotation to configure the test run
 @CucumberOptions(
-        // Path to the feature files where the Gherkin scenarios are written
+        //// Path to the feature files where the Gherkin scenarios are written
         features = "src/main/resources/features",
 
         // The package where your step definition classes are located
